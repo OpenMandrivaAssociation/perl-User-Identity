@@ -13,6 +13,7 @@ Source:		http://search.cpan.org/CPAN/authors/id/M/MA/MARKOV/%{real_name}-%{versi
 URL:		http://search.cpan.org/dist/User-Identity/
 BuildArch:	noarch
 BuildRequires:	perl-devel
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 This is the User Identity CPAN Perl module.
