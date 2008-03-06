@@ -1,7 +1,7 @@
 %define	real_name User-Identity
 %define	name	perl-%{real_name}
 %define	version	0.92
-%define	release	1
+%define	release	2
 
 Summary:	%{real_name} CPAN Perl module
 Name:		%{name}
