@@ -1,14 +1,14 @@
 %define	modname	User-Identity
-%define modver	0.93
+%define modver 0.94
 
 Summary:	%{modname} CPAN Perl module
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/User-Identity/
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MA/MARKOV/%{modname}-%{modver}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/M/MA/MARKOV/User-Identity-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 
@@ -33,4 +33,5 @@ make test
 %{perl_vendorlib}/Mail/*
 %{perl_vendorlib}/User/*
 %{_mandir}/man3/*
+
 
