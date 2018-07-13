@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/User-Identity/
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MA/MARKOV/User-Identity-%{modver}.tar.gz
 BuildArch:	noarch
+BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 
 %description
