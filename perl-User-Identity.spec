@@ -1,10 +1,10 @@
 %define	modname	User-Identity
-%define modver 0.94
+%define modver 0.99
 
 Summary:	%{modname} CPAN Perl module
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	8
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/User-Identity/
