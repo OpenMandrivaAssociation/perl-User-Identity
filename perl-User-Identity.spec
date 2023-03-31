@@ -3,7 +3,7 @@
 Summary:	%{modname} CPAN Perl module
 Name:		perl-%{modname}
 Version:	1.01
-Release:	1
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/User-Identity/
