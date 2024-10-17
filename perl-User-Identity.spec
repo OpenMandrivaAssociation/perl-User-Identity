@@ -6,7 +6,7 @@ Version:	1.01
 Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/User-Identity/
+Url:		https://search.cpan.org/dist/User-Identity/
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MA/MARKOV/User-Identity-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::More)
