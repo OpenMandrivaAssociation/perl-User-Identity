@@ -2,8 +2,8 @@
 
 Summary:	%{modname} CPAN Perl module
 Name:		perl-%{modname}
-Version:	1.01
-Release:	2
+Version:	4.0.0
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://search.cpan.org/dist/User-Identity/
@@ -17,7 +17,7 @@ BuildRequires:	perl-devel
 This is the User Identity CPAN Perl module.
 
 %prep
-%autosetup -p1 -n %{modname}-%{version}
+%autosetup -p1 -n User-Identity-4.00
 perl Makefile.PL INSTALLDIRS=vendor
 
 %build
