@@ -2,7 +2,7 @@
 
 Summary:	%{modname} CPAN Perl module
 Name:		perl-%{modname}
-Version:	4.0.0
+Version:	4.00
 Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
