@@ -2,16 +2,20 @@
 
 Summary:	%{modname} CPAN Perl module
 Name:		perl-%{modname}
-Version:	1.01
+Version:	4.00
 Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/User-Identity/
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MA/MARKOV/User-Identity-%{version}.tar.gz
+Url:		https://metacpan.org/release/User-Identity
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MARKOV/User-Identity-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Test::More)
+BuildRequires:	perl(Log::Report)
+BuildRequires:	perl(Hash::Ordered)
 BuildRequires:	perl-devel
+Requires:	perl(Log::Report)
+Requires:	perl(Hash::Ordered)
 
 %description
 This is the User Identity CPAN Perl module.
