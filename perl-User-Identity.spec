@@ -3,7 +3,7 @@
 Summary:	%{modname} CPAN Perl module
 Name:		perl-%{modname}
 Version:	4.00
-Release:	2
+Release:	3
 License:	GPL-2.0-or-later OR Artistic-1.0-Perl
 Group:		Development/Perl
 Url:		https://metacpan.org/release/User-Identity
@@ -35,5 +35,6 @@ make test
 
 %files
 %doc README.md
-%{perl_vendorlib}/User*
+%{perl_vendorlib}/Mail
+%{perl_vendorlib}/User
 %{_mandir}/man3/*
